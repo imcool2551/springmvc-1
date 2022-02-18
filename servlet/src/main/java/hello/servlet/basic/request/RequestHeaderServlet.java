@@ -23,7 +23,7 @@ public class RequestHeaderServlet extends HttpServlet {
         System.out.println("--- REQUEST-LINE - start ---");
 
         System.out.println("request.getMethod() = " + request.getMethod()); //GET
-        System.out.println("request.getProtocal() = " + request.getProtocol()); //HTTP/1.1
+        System.out.println("request.getProtocol() = " + request.getProtocol()); //HTTP/1.1
         System.out.println("request.getScheme() = " + request.getScheme()); //http
         // http://localhost:8080/request-header
         System.out.println("request.getRequestURL() = " + request.getRequestURL());
