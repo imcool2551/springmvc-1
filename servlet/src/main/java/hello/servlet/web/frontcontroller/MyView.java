@@ -7,7 +7,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Map;
 
-public class MyView {
+public class
+MyView {
     private String viewPath;
 
     public MyView(String viewPath) {
